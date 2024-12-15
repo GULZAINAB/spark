@@ -4,6 +4,7 @@ using docker to run spark
 docker pull apache/spark-py
 ## step 2: Start Docker container:
 Run the Docker container with the mounted volume: (dataset is from kaggle (netflix movies and tv))
+
 docker run -it -v /home/zainab/Downloads:/data apache/spark-py
 ## step 3 test if pyspark available
 python -c "from pyspark.sql import SparkSession"
