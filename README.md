@@ -11,9 +11,8 @@ python -c "from pyspark.sql import SparkSession"
 ## step 4 create eda_netflix.py file and run it 
 spark-submit /home/zainab/Downloads/eda_netflix.py (run using this command)
 or either cann directly run python script 
-df = spark.read.csv("/data/netflix_titles.csv", header=True, inferSchema=True)
-df.show(5)  # Display the first 5 rows
-check spar_173 file for result
+
+check spark_173.odt file for result
 
 
 
