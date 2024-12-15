@@ -13,9 +13,3 @@ spark-submit /home/zainab/Downloads/eda_netflix.py (run using this command)
 or either cann directly run python script 
 
 check spark_173.odt file for result
-
-
-
-
-
-
